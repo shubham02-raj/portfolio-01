@@ -4,22 +4,22 @@ const About = () => {
   return (
     <div
       name="about"
-      // id="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800
-     to-black text-white pb-20 pt-180 sm:pt-0 border-2 border-blue-500"
+       id="about"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800
+     to-black text-white pb-20 pt-180 sm:pt-0"
     >
-      <div className="max-w-screen-lg px-4  mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500" id="about">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500" >
             About
           </p>
         </div>
 
-        <h4 className="text-2xl mt-10">
+        <h4 className="text-3xl mt-10" style={{ fontFamily: "Poppins"}}>
           🚀 Transforming Ideas into Stunning Web Experiences 🚀
         </h4>
 
-        <p className="text-xl mt-10">
+        <p className="text-2xl mt-10" style={{ fontFamily: "Inter", fontWeight: 300 , lineHeight: 1.6,}}>
           With over 3 years of hands-on experience in frontend development, I
           specialize in building high-performance, scalable, and visually
           engaging web applications. Passionate about crafting seamless user
@@ -33,9 +33,9 @@ const About = () => {
         </p>
 
         <br />
-        <h4 className="text-2xl mt-7">💡 What I Bring to the Table:</h4>
+        <h4 className="text-3xl mt-7" style={{ fontFamily: "Poppins"}}>💡 What I Bring to the Table:</h4>
 
-        <p className="text-xl mt-10">
+        <p className="text-2xl mt-10" style={{ fontFamily: "Inter", fontWeight: 300 , lineHeight: 1.6}}>
           ✅ <strong>Expertise in Modern Frontend Technologies :</strong> <i><span style={{color:'#1E90FF',}}>&nbsp;&nbsp;  React.js</span>, <span style={{color:'#FF69B4'}}>Next.js</span>, 
            <span style={{color:'#00CED1'}}> Tailwind CSS</span> ,<span style={{color:'#1E90FF'}}> TypeScript</span> ,<span style={{color:'#FFFF00'}}> JavaScript</span>  and more.</i>
           <br />
@@ -51,9 +51,9 @@ const About = () => {
           ✅ <strong>Passionate About UI/UX : </strong>&nbsp;&nbsp;<i>Aiming for intuitive, engaging, and
           accessible designs.</i>
         </p>
-        <h4 className="text-2xl mt-7" style={{fontStyle: 'italic'}}>
+        <h4 className="text-2xl mt-7" style={{fontStyle: 'italic',fontFamily: "Poppins"}}>
         🎯Beyond coding, I believe in continuous learning and staying ahead of
-          trends, ensuring <span style={{marginLeft: '30px'}}>that</span> every project I work on is built with the latest
+          trends, ensuring that every <span style={{marginLeft: '30px'}}>project</span> I work on is built with the latest
           and most efficient web technologies.
         </h4>
       </div>

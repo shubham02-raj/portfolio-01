@@ -39,7 +39,7 @@ const Navbar = () => {
         </h1>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex text-xl" style={{ fontFamily: "Inter", fontWeight: 300}}>
         <li
           onClick={() => handleScroll("home")}
           className="px-4 cursor-pointer capitalize font-medium 

@@ -13,7 +13,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Get in Touch
           </p>
-          <p className="py-6">Feel free to reach out to me for any questions or opportunities!</p>
+          <p className="py-6 text-2xl" style={{ fontFamily: "Inter", fontWeight: 300}}>Feel free to reach out to me for any questions or opportunities!</p>
         </div>
         <div className="flex justify-center items-center">
           <form

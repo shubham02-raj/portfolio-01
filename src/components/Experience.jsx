@@ -14,19 +14,19 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      // id="experience"
+      id="experience"
       className="bg-gradient-to-b from-gray-800 
-    to-black w-full h-fit border-2 border-green-500"
+    to-black w-full h-fit"
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center 
-      w-full h-full text-white" id="experience"
+      w-full h-full text-white" 
       >
-        <div className="sm:pt-60 pt-10">
+        <div className="sm:mt-10 mt-10">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-1 inline">
             Technical Expertise
           </p>
-          <p className="py-6">A showcase of my technical proficiency and the tools I use to create exceptional web experiences.</p>
+          <p className="py-6 text-2xl" style={{ fontFamily: "Inter", fontWeight: 300}}>A showcase of my technical proficiency and the tools I use to create exceptional web experiences.</p>
         </div>
 
         <div
