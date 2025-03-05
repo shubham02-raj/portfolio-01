@@ -9,6 +9,7 @@ import tomato from "../assets/portfolio/tomato.png";
 import portfolio from "../assets/portfolio/portfolio.png";
 import ana_clock from "../assets/portfolio/ana_clock.png";
 import imgery from "../assets/portfolio/imgery.png";
+import bgc from "../assets/portfolio/bgc.png";
 
 const Portfolio = () => {
   const projects = [
@@ -49,11 +50,12 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      name: "Array Destructuring",
-      image: arrayDestruct,
+      name: "BGChanger",
+      image: bgc,
       demo: null,
-      code: null
+      code: "https://github.com/shubham02-raj/ui-bg-changer"
     },
+    
   ];
 
   const handleClick = (url) => {
