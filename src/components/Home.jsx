@@ -4,9 +4,9 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 
 const textArray  = [
-  "Full Stack Dev",
-  "UI/UX Designer",
+  "Frontend Developer",
   "React Developer",
+  "JavaScript Developer",
   "Web Developer",
   "Freelancer",
 ];
@@ -83,9 +83,9 @@ const Home = () => {
             🚀 Transforming Ideas into Stunning Web Experiences
           </h5> */}
           <p className="text-gray-500 py-4 max-w-md font-semibold">
-            Passionate web developer crafting beautiful and functional digital
+          👨‍💻Passionate frontend developer crafting beautiful and functional digital
             experiences. Specializing in modern web technologies and responsive
-            design.
+            design 🚀.
           </p>
           <div>
             <button

@@ -33,39 +33,39 @@ const Experience = () => {
           className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center 
         py-8 px-12 sm:px-0"
         >
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-orange-500">
             <img src={html} alt="" className="w-20 mx-auto" />
             <p>HTML</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-blue-500">
             <img src={css} alt="" className="w-20 mx-auto" />
             <p>CSS</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-yellow-500">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-yellow-500">
             <img src={javascript} alt="" className="w-20 mx-auto" />
             <p>JAVASCRIPT</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-300">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-sky-300">
             <img src={reactImage} alt="" className="w-20 mx-auto" />
             <p>REACT</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-white">
             <img src={nextjs} alt="" className="w-20 mx-auto" />
             <p>NEXT JS</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-blue-500">
             <img src={ts_img} alt="" className="w-20 mx-auto" />
             <p>TYPESCRIPT</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-green-400">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-green-400">
             <img src={node} alt="" className="w-20 mx-auto" />
             <p>NODE JS</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-400">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-sky-400">
             <img src={tailwind} alt="" className="w-20 mx-auto" />
             <p>TAILWIND</p>
           </div>
-          <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-green-500">
+          <div className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg shadow-green-500">
             <img src={mongodb} alt="" className="w-20 mx-auto" />
             <p>MONGO DB</p>
           </div>
